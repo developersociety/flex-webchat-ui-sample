@@ -1,10 +1,8 @@
-require('dotenv').config()
-
 var appConfig = {
     //  change the your AccountSid
-    accountSid: process.env.TWILIO_ACC_NO,
-    // change to your Flex Flow SID
-    flexFlowSid: process.env.TWILIO_FLEX_FLOW,
+    accountSid: "AC3a5825d2d1a2181f7bcbebd4dcfaf268",
+    flexFlowSid: "FO73730f930be55236a7c5ee812a5a8a95",
+
     colorTheme: {
         overrides: brandedColors
     },
