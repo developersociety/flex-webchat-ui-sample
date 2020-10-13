@@ -7,22 +7,12 @@ body, #root {
   font-family: 'Open Sans', sans-serif;
 }
 
-body {
-  position: relative;
-  background-size: cover;
-  background-image: url("/img/background.png");
-  background-color: #6D7697;
+.Twilio-EntryPoint,
+.Twilio-Icon-Close {
+  display: none !important;
 }
 
-body:after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 174px;
-  height: 182px;
-  margin-left: -87px;
-  margin-top: -91px;
-  opacity: 0.2;
-  background: url("/img/logo.svg");
+.Twilio-MainContainer {
+  max-height: none !important;
 }
+
