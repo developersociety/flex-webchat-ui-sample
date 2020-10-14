@@ -18,6 +18,16 @@ var appConfig = {
             titleText: 'Triage your needs to find the right support',
             closeCallback: () => { return }
         },
+        MessagingCanvas: {
+            memberDisplayOptions: {
+                yourDefaultName: 'You',
+                theirDefaultName: 'Triage Bot',
+                yourFriendlyNameOverride: false,
+                theirFriendlyNameOverride: false
+            },
+            messageStyle: "Squared",
+
+        },
         MessageCanvasTray: {
             showButton: true
         }

@@ -6,7 +6,7 @@ var personalizedColors = {
    primaryPurple: brandColor1,
    whiteText: "#FFFFFF",
    entryPointBackground: "#3C425C",
-   lighterBackground: "#ecedf1",
+   lighterBackground: "#f8f8f8",
    primaryButtonBackground: "#1976d2",
    primaryButtonColor: "#FFFFFF",
    secondaryButtonBackground: "#6e7180",
@@ -33,7 +33,7 @@ var brandedColors = {
     Chat: {
         MessageListItem: {
             FromOthers: brandMessageBubbleColors(brandColor2, brandColor1),
-            FromMe: brandMessageBubbleColors(brandColor1, brandTextColor),
+            FromMe: brandMessageBubbleColors(personalizedColors.whiteText, brandColor1),
         },
         MessageInput: {
             Button: {
@@ -45,6 +45,11 @@ var brandedColors = {
             Container: {
                 background: personalizedColors.primaryPurple,
                 color: personalizedColors.whiteText
+            }
+        },
+        MessagingCanvas: {
+            Container: {
+                background: personalizedColors.lighterBackground
             }
         },
     },
